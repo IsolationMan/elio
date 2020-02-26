@@ -10,7 +10,8 @@ public class GitTest {
         System.out.println("11111111");
 
         test(5);
-
+        String test = test();
+        System.out.println(test);
         System.out.println(a);
 
     }
@@ -22,6 +23,13 @@ public class GitTest {
         System.out.println("新增");
 
     }
+    public static String test(){
+
+        String b = "hello";
+        return b;
+
+    }
+
 
 
 }
